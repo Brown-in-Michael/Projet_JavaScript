@@ -65,11 +65,11 @@ function createFeaturedProductCard() {
     productList.appendChild(cardContainer);
     cardContainer.classList.add("product-card");
     cardContainer.appendChild(image);
-    cardContainer.classList.add("image");
+    image.classList.add("product-image");
     cardContainer.appendChild(productTitle);
-    cardContainer.classList.add("productTitle");
+    productTitle.classList.add("product-title");
     cardContainer.appendChild(para);
-    cardContainer.classList.add("para");
+    para.classList.add("product-name");
     cardContainer.appendChild(paraDescription);
     cardContainer.classList.add("paraDecription");
     //     • retourne ce conteneur
